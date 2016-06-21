@@ -15,6 +15,7 @@ namespace BusinessLogic.Tests
 		{
 			var id = paymentService.WhatsYourId();
 			Assert.NotNull(id);
+			Assert.Equal(paymentServiceOptions.CandidateId, id);
 		}
 	}
 }
