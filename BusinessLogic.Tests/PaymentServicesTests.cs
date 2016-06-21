@@ -1,9 +1,8 @@
-﻿using Ipp.Recruitment.BusinessLogic;
-using Ipp.Recruitment.Common.Contracts;
+﻿using Ipp.Recruitment.Common.Contracts;
 using Ipp.Recruitment.Common.Models;
 using Xunit;
 
-namespace BusinessLogic.Tests
+namespace Ipp.Recruitment.BusinessLogic.Tests
 {
 	public class PaymentServicesTests
 	{
